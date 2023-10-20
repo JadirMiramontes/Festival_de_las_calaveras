@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+@import url(../css/main.css);
+@import url(../css/cineMain.css);
+
+body
+{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#IMGMenu
+{
+  width: 45px;
+  height: 45px;
+}
+
+.navbar{
+  background-color:blueviolet; /* Cambia "purple" por el código de color morado que desees */
+}
+
+.active
+{
+  font-family: 'Emilys Candy', serif;
+  font-size: 20px;
+}
+
+#Peliculas > img
+{
+  border-radius: 8px;
+  width: 100%;
+  height: 100% ;
+  box-shadow: 0px 0px 30px #000;
+}
+
+#TituloActividades
+{
+  font-family: 'Nosifer', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+#ActividadCine a
+{
+    font-family: 'Nosifer', sans-serif;
+    color: blueviolet;
+}
+
+#ActividadCine a:hover
+{
+  color: red;
+}
+
+#Tema
+{
+  font-family: 'Emilys Candy', serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+#temaMenu
+{
+    font-family: 'Emilys Candy', serif;
+}
+
+.Titulos
+{
+  font-family: 'Creepster';
+  font-size: 50px;
+  text-align: center;
+}
+
+footer img
+{
+  width: auto;
+  height: 50px;
+  object-fit: cover;
+}
+
+footer h2
+{
+  color: white;
+}
+
+tbody
+{
+  justify-content: center;
+  align-items: center;
+}
+.carruselIMG {
+  max-width: 450%; /* Mantiene el ancho máximo para mantener la relación de aspecto */
+  height: auto; /* Ajusta automáticamente la altura */
+  max-height: 450px;
+  justify-content: center;
+  align-items: center;
+}

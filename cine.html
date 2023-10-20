@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="boost/bootstrap.min.css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <!--<link href="css/main.css" rel="stylesheet" type="text/css">-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Incluye los archivos CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Cartelera</title>
+  <link rel="shortcut icon" href="src/miniatura/calaverita_dulce.png">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a href="index.html"><img id="IMGMenu" class="img-fluid" src="src/miniatura/calaverita_dulce.png" alt="calaverita"></a>
+            <a id="temaMenu" class="navbar-brand" href="index.html">Festival de las Calaveras</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href=""></a>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="https://www.facebook.com/tecnologico.delicias">Facebook</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="https://www.delicias.tecnm.mx/">TecNM Campus Delicias</a>
+                  </li>
+                  <li class="nav-item">
+                    <button id="modoNocturnoBtn" class="btn">
+                      <span id="darkModeIcon" class="material-symbols-outlined">dark_mode</span>
+                      <span id="lightModeIcon" class="material-symbols-outlined">light_mode</span>
+                    </button>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+      <div class="card">
+        <div class="imgBx">
+          <img src="src/peliculas/hasta_el_viento_tiene_miedo.jpg" alt="">
+        </div>
+        <div class="content">
+          <h2>Hasta el viento tiene miedo (1968)</h2>
+          <p>Horror gótico</p>
+          <p>12:00  a 14:00</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="src/peliculas//macario.jpg" alt="">
+        </div>
+        <div class="content">
+          <h2>Macario (1960)</h2>
+          <p>Drama</p>
+          <p>14:00  a 16:00</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="src/peliculas/el_libro_de_la_vida.webp" alt="">
+        </div>
+        <div class="content">
+          <h2>El libro de la vida (2014)</h2>
+          <p>Animada</p>
+          <p> 16:00 a 18:00</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="src/peliculas/mas_negro_que_la_noche.jpg" alt="">
+        </div>
+        <div class="content">
+          <h2>Más negro que la noche (1975)</h2>
+          <p>Suspenso</p>
+          <p>18:00 a 20:00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Botón para regresar al principio de la página -->
+    <button id="btn-scroll-top" class="btn btn-primary rounded-circle">&#8679;</button>
+
+    <footer class="hero footer">
+        <div class="logo"><h2 id="temaFooter">Festival de las calaveras</h2></div>
+          <div>
+            <img src="src/miniatura/calaverita_dulce.png" alt=""/>
+          </div>
+          <div>
+            <img src="src/logosTec/Sistemas.png" alt=""/>
+          </div>
+          <div>
+            <img src="src/logosTec/TecDelicias.png" alt=""/>
+          </div>
+      </footer>
+
+      <script src="Assets/gotop.js"></script>
+      <script src="Assets/nocturno.js"></script> 
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="boost/bootstrap.min.css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <!--<link href="css/main.css" rel="stylesheet" type="text/css">-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- Incluye los archivos CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Festival de las calaveras</title>
+  <link rel="shortcut icon" href="src/miniatura/calaverita_dulce.png">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a href="index.html"><img id="IMGMenu" class="img-fluid" src="src/miniatura/calaverita_dulce.png" alt="calaverita"></a>
+        <a id="temaMenu" class="navbar-brand" href="index.html">Festival de las Calaveras</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#actividades">Actividades</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="cine.html">Cine</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="https://www.facebook.com/tecnologico.delicias">Facebook</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="https://www.delicias.tecnm.mx/">TecNM Campus Delicias</a>
+              </li>
+                <li class="nav-item">
+                  <button id="modoNocturnoBtn" class="btn">
+                    <span id="darkModeIcon" class="material-symbols-outlined">dark_mode</span>
+                    <span id="lightModeIcon" class="material-symbols-outlined">light_mode</span>
+                  </button>
+                </li>          
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<br/>
+<header id="Tema" class="container-fluid">FESTIVAL DE LAS CALAVERAS</header>
+
+<!--Carrusel-->
+<div class="container slider-container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+      <!-- Indicadores de las imágenes -->
+      <ul class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ul>
+
+      <!-- Imágenes del slider -->
+      <div class="carousel-inner">
+          <center>
+          <div class="carousel-item active">
+                  <img class="img-fluid carruselIMG" src="src/peliculas/hasta_el_viento_tiene_miedo.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+                  <img class="img-fluid carruselIMG" src="src/peliculas/macario.jpg" alt="">
+          </div>
+          <div class="carousel-item">
+                  <img class="img-fluid carruselIMG" src="src/peliculas/el_libro_de_la_vida.webp" alt="">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid carruselIMG" src="src/peliculas/mas_negro_que_la_noche.jpg" alt="">
+          </div>
+          </center>
+      </div>
+
+      <!-- Controles de navegación -->
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+      </a>
+  </div>
+</div>
+
+<header id="actividades" class="container-fluid Titulos">ACTIVIDADES</header>
+<center>
+<div class="container-fluid">
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th id="TituloActividades" colspan="3">Propuesta del programa</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Actividad</th>
+          <th>Lugar</th>
+          <th>Hora</th>
+        </tr>
+        <tr>
+          <th>Conferencia “la muerte en la filosofía”</th>
+          <th>Audiovisual</th>
+          <th>De 11:00 a 12:00</th>
+        </tr><tr>
+          <th>Exposición de tapetes</th>
+          <th>Explanada</th>
+          <th>De 11:00 a 20:00</th>
+        </tr><tr>
+          <th>Exposición de altar</th>
+          <th>Explanada </th>
+          <th>De 11:00 a 20:00</th>
+        </tr><tr>
+          <th id="ActividadCine"><a href="cine.html">Cine</a></th>
+          <th>Audiovisual/Explanada</th>
+          <th>De 13:00 a 20:00</th>
+        </tr><tr>
+          <th>Concurso de catrinas y catrines (Fase I)</th>
+          <th>El escogido por cada capítulo/rama estudiantil. </th>
+          <th>De 13:00 a 15:00</th>
+        </tr><tr>
+          <th>Concurso de catrinas y catrines (Fase II)</th>
+          <th>Explanada</th>
+          <th>De 16:00 a 17:00</th>
+        </tr><tr>
+          <th>Presentación del  Ballet Folklórico Omáwari</th>
+          <th>Explanada</th>
+          <th>De 17:00 a 17:30</th>
+        </tr><tr>
+          <th>Presentación del  Ballet Folklórico Omáwari</th>
+          <th>Explanada</th>
+          <th>De 17:00 a 17:30</th>
+        </tr><tr>
+          <th>Presentación de la rondalla del campus</th>
+          <th>Explanada</th>
+          <th>De 17:30 a 18:00</th>
+        </tr><tr>
+          <th>Concurso de calaveritas</th>
+          <th>Explanada</th>
+          <th>De 18:00 a 18:30</th>
+        </tr><tr>
+          <th>Exposición de Leyendas Mexicanas</th>
+          <th>Explanada</th>
+          <th>De 18:30 a 20:00</th>
+        </tr></tr><tr>
+          <th>Venta de alimentos y bebidas</th>
+          <th>Explanada</th>
+          <th>De 15:00 a 20:00 </th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</center>
+
+<!-- Botón para regresar al principio de la página -->
+<button id="btn-scroll-top" class="btn btn-primary rounded-circle">&#8679;</button>
+
+<footer class="hero footer">
+  <div class="logo"><h2 id="temaFooter">Festival de las calaveras</h2></div>
+    <div>
+      <img src="src/miniatura/calaverita_dulce.png" alt=""/>
+    </div>
+    <div>
+      <img src="src/logosTec/Sistemas.png" alt=""/>
+    </div>
+    <div>
+      <img src="src/logosTec/TecDelicias.png" alt=""/>
+    </div>
+</footer>
+
+<!-- Incluye los archivos JavaScript de Bootstrap y jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="Assets/gotop.js"></script>
+<script src="Assets/nocturno.js"></script>
+</body>
+</html>
